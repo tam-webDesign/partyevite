@@ -8,7 +8,7 @@
                 background-image:url(bluebackground.png)
             }
             .header {
-            position: relative;
+            position: absolute;
             margin: auto;
             width: 50%;
             text-align: center;
@@ -16,18 +16,22 @@
             background-color: white;
             color: purple;
             border: solid blue 2px;
-            
+            margin-top: 260px;
+            margin-left: 25%;
+        
             
             }
             .info {
-                margin:auto; 
+                position: absolute;
+                margin: auto;
+                margin-top: 520px;
+                margin-left: 34%;
                 text-align: center;
                 width:30%;
                 font-size: 25px;
-                color: mediumpurple;
+                color: purple;
                 background-color:antiquewhite;
                 padding: 2px;
-                margin-top: 20px;
                 padding: 5px;
                 border: solid blue 2px;
                 
@@ -37,22 +41,17 @@
                 margin:auto;
                 width: 100%;
                 position:absolute;
-                display: flex;
-                flex-flow: row wrap;
-                float: left;
                
             }
             .ball2 {
+                display: flex;
+                flex: row wrap;
+                float: left;
                 align-items: right;
                 justify-content: right;
             }
-            .partytime{
-                margin:auto;
-                width: 50%;
-                position:absolute; 
-                display: flex;
-                flex-flow: row wrap; 
-            }
+
+        
             
         </style>
     </head>
@@ -64,9 +63,6 @@
             <div class="ballon ball2">
         <img src="party.png" width="500" alt="ballon">
         </div>
-        <div class="party"><img src="partytime.png" width="300">
-</div>
-
     <div class="header">
         <h2>You're Invited To</h2>
         <h1>Tam's Birthday Party!</h1>
@@ -76,7 +72,7 @@
         Time: 3:00 PM To 9:00 PM <br>
         Location: Sky Zone @ 9490 Blue Grass Rd, Philadelphia, PA 19114 <br>
         RSVP <a target="_blank" href="link">Here</a> Before March 31
-        
+      
         </div>
         </div>
     </body>
